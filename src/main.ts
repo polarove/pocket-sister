@@ -30,6 +30,7 @@ import router from '@router'
 // customize css
 import '@css/normalize.css'
 import '@css/scrollbar.css'
+import '@css/universal.css'
 
 // element-plus dark mode
 import 'element-plus/theme-chalk/dark/css-vars.css'

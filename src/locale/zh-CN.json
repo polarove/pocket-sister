@@ -1,5 +1,10 @@
 {
-    "name": "刘棋",
-    "os-language": "跟随系统",
-    "i18n": "文本与组件库国际化"
+    "author": "刘棋",
+    "sister": "刘小洁",
+    "home": {
+        "name": "主页"
+    },
+    "about": {
+        "name": "关于"
+    }
 }

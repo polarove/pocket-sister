@@ -6,6 +6,11 @@ const routes = [
         name: 'home',
         component: () => import('@view/home/home.vue'),
     },
+    {
+        path: '/page-pocket-sister/about',
+        name: 'about',
+        component: () => import('@view/about/about.vue'),
+    },
 ]
 
 const router = createRouter({

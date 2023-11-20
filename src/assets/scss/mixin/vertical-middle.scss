@@ -1,9 +1,0 @@
-@mixin vertical-middle {
-    > * {
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .icon {
-        margin: 0 10px;
-    }
-}

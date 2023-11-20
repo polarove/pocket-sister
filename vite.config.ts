@@ -36,7 +36,7 @@ export default defineConfig({
                 'vue-i18n',
                 {
                     from: 'src/typings/*.d.ts',
-                    imports: ['response,SupportedUILocale'],
+                    imports: ['response,SupportedUILocale, PocketRecord'],
                     type: true,
                 },
                 unheadVueComposablesImports,

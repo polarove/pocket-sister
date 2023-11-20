@@ -1,5 +1,10 @@
 {
-    "name": "Polarian",
-    "os-language": "OS default",
-    "i18n": "Text and component library internationalization"
+    "author": "Polarian",
+    "sister": "刘小洁",
+    "home": {
+        "name": "Home"
+    },
+    "about": {
+        "name": "About"
+    }
 }

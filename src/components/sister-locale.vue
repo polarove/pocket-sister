@@ -4,15 +4,6 @@
             {{ useSupportedLocale.get($i18n.locale) }}
         </span>
         <template #dropdown>
-            <!-- <el-dropdown-item
-                                @click="
-                                    () =>
-                                        ($i18n.locale = platform.language.value!) &&
-                                        toggleLanguage(platform.language.value!)
-                                "
-                            >
-                                <span v-t="'os-language'"></span>
-                            </el-dropdown-item> -->
             <el-dropdown-item
                 v-for="(locale, index) in $i18n.availableLocales"
                 :key="index"
