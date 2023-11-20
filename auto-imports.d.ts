@@ -310,4 +310,6 @@ declare global {
   export type { Component, ComponentPublicInstance, ComputedRef, ExtractDefaultPropTypes, ExtractPropTypes, ExtractPublicPropTypes, InjectionKey, PropType, Ref, VNode, WritableComputedRef } from 'vue'
   // @ts-ignore
   export type { response,SupportedUILocale, PocketRecord } from 'src/typings/*.d.ts'
+  // @ts-ignore
+  export type { RouteRecordRaw,RouteRecordName } from 'vue-router'
 }

@@ -39,6 +39,11 @@ export default defineConfig({
                     imports: ['response,SupportedUILocale, PocketRecord'],
                     type: true,
                 },
+                {
+                    from: 'vue-router',
+                    imports: ['RouteRecordRaw,RouteRecordName'],
+                    type: true,
+                },
                 unheadVueComposablesImports,
             ],
             resolvers: [ElementPlusResolver()],
