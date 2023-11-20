@@ -1,28 +1,28 @@
 <template>
-    <el-row justify="center" p="2em">
-        <el-col :xl="3" :lg="3" :md="4" :sm="4" :xs="5">
-            <div>logo</div>
+    <el-row justify="center" items="center" p="2em">
+        <el-col :xl="4" :lg="4" :md="6" :sm="12" :xs="12">
+            <sister-logo />
         </el-col>
 
-        <el-col :xl="8" :lg="8" :md="8" :sm="12" :xs="12">
+        <el-col :xl="12" :lg="12" :md="8" :sm="6" :xs="6">
             <sister-routes
                 justify="start"
                 items="center"
-                item-position="start"
+                item-position="center"
                 :span="24"
-                :xl="8"
+                :xl="4"
                 :lg="4"
                 :md="4"
-                :sm="4"
+                :sm="12"
                 :xs="12"
             />
         </el-col>
         <el-col
             :xl="4"
-            :lg="8"
-            :md="8"
-            :sm="8"
-            :xs="7"
+            :lg="4"
+            :md="4"
+            :sm="6"
+            :xs="6"
             class="inline-align text-end"
         >
             <sister-locale />

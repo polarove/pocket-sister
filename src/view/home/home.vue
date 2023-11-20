@@ -13,7 +13,7 @@ span
 
 <script setup lang="ts">
 const seo = {
-    title: '标题',
+    title: '给妹妹的记事本',
     description: 'seo描述',
     keywords: 'seo关键字',
 }
