@@ -8,19 +8,20 @@
         >
             <el-card>
                 <template #header>
-                    <div class="vm flex-between">
-                        <span>
-                            {{ record.for }}
-                        </span>
-                        <el-tag
-                            round
-                            :type="record.cost > 0 ? 'success' : 'danger'"
-                        >
-                            <span text="1.3em">{{ record.cost }}</span>
-                        </el-tag>
-                    </div>
+                    <span>
+                        {{ record.for }}
+                    </span>
                 </template>
-                <span>剩余： {{ record.remain }}元 </span>
+                <div class="flex-between">
+                    <span>剩余： {{ record.remain }}元 </span>
+                    <el-tag
+                        size="small"
+                        round
+                        :type="record.cost > 0 ? 'success' : 'danger'"
+                    >
+                        <span text="1.3em">{{ record.cost }}</span>
+                    </el-tag>
+                </div>
             </el-card>
         </el-timeline-item>
     </el-timeline>

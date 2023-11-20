@@ -1,19 +1,19 @@
 <template>
-    <el-row justify="center" items="center" p="2em">
-        <el-col :xl="4" :lg="4" :md="6" :sm="12" :xs="12">
+    <el-row justify="center" items="center" m="lt-lg:1em lg:2em">
+        <el-col :xl="6" :lg="6" :md="6" :sm="6" :xs="24">
             <sister-logo />
         </el-col>
 
-        <el-col :xl="12" :lg="12" :md="8" :sm="6" :xs="6">
+        <el-col :xl="10" :lg="10" :md="10" :sm="12" :xs="12" mt="lt-sm:1em">
             <sister-routes
                 justify="start"
                 items="center"
-                item-position="center"
+                item-position="start"
                 :span="24"
-                :xl="4"
-                :lg="4"
-                :md="4"
-                :sm="12"
+                :xl="6"
+                :lg="6"
+                :md="6"
+                :sm="6"
                 :xs="12"
             />
         </el-col>
@@ -21,12 +21,14 @@
             :xl="4"
             :lg="4"
             :md="4"
-            :sm="6"
-            :xs="6"
-            class="inline-align text-end"
+            :sm="4"
+            :xs="12"
+            mt="lt-md:1em"
+            text="end"
         >
-            <sister-locale />
-            <sister-theme size="1.75em" class="ml-1em" />
+            <div class="flex-end">
+                <sister-locale /> <sister-theme size="1.75em" class="ml-1em" />
+            </div>
         </el-col>
     </el-row>
 </template>

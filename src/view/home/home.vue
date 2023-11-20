@@ -3,7 +3,7 @@ span
     <sister-header />
     <full-page>
         <full-page-item flex justify-center>
-            <div class="w-85vw p-1em">
+            <div class="lg:w-85vw lt-lg:w-90vw mt-1em trans">
                 <sister-timeline />
             </div>
         </full-page-item>
@@ -13,7 +13,7 @@ span
 
 <script setup lang="ts">
 const seo = {
-    title: '给妹妹的记事本',
+    title: '妹妹的记事本',
     description: 'seo描述',
     keywords: 'seo关键字',
 }
@@ -21,4 +21,10 @@ const seo = {
 useSeoMeta(seo)
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media screen and (max-width: 576px) {
+    .trans {
+        transform: translateX(-5%);
+    }
+}
+</style>

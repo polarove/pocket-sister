@@ -1,5 +1,5 @@
 <template>
-    <el-dropdown ml="1em">
+    <el-dropdown>
         <span hover="cursor-pointer">
             {{ useSupportedLocale.get($i18n.locale) }}
         </span>
