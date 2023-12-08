@@ -15,7 +15,7 @@ span
 const seo = {
   title: '妹妹的记事本',
   description: 'seo描述',
-  keywords: '妹妹的记事本，记事本，日记',
+  keywords: '妹妹的记事本，记事本，日记，笔记本',
 }
 
 useSeoMeta(seo)
