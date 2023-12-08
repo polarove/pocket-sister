@@ -1,0 +1,1 @@
+import{a as n,b as s,d as _}from"./sister-header-dTrBTfCn.js";import{k as c,l as r,D as e,J as a,v as l}from"./index-Wg5G4Siy.js";const m={},p=l("section",{"h-70vh":"","flex-center":"","font-bold":"","text-4xl":""},"闲的",-1);function f(i,d){const o=s,t=_;return c(),r(a,null,[e(o),p,e(t)],64)}const h=n(m,[["render",f]]);export{h as default};
