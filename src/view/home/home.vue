@@ -14,8 +14,8 @@ span
 <script setup lang="ts">
 const seo = {
   title: '妹妹的记事本',
-  description: 'seo描述',
-  keywords: '妹妹的记事本，记事本，日记，笔记本',
+  description: '一个用来记事的',
+  keywords: '妹妹的记事本，记事本，日记，笔记本，网络记事本',
 }
 
 useSeoMeta(seo)
